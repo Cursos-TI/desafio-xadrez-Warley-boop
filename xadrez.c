@@ -7,27 +7,14 @@
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
-    for(int i = 0; i < 5; i++){
-
-        printf ("Direita\n");
+    int n = 2; // movimento do cavalo
+ 
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("*");
+        }
+        printf("\n");
     }
-
-
-
-    int j = 0;
-    do {
-        printf("Cima, Direita\n", j);
-        j++;
-    } while (j <= 5);
-
-
-
-    int k = 0
-    while (k < 8){
-        printf("Esquerda\n", k);
-        k++;
-    }
-
 
     return 0;
 }
